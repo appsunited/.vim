@@ -1,7 +1,7 @@
 MacVim Settings
 ===============
 
-Just copy this .vim into the root dir. You also need to create the .gvimrc and .vimrc files.
+Just copy this .vim into the root dir. You also need to create the .gvimrc and .vimrc files. In addition you need to create an empty dir into .vim named "backup".
 
 
 Plugins
