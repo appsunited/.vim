@@ -1,3 +1,5 @@
+let mapleader = ","
+
 map ,n :execute 'NERDTreeToggle ' . getcwd()<CR>
 
 set autoindent
@@ -19,3 +21,5 @@ set tabstop=2
 set termencoding=utf-8
 set wildignore=*.o,*.obj,.git,*.rbc,*.class,.svn,vendor/gems/*
 set wildmode=list:longest,list:full
+
+nnoremap <leader>1 yypVr=
