@@ -13,7 +13,7 @@ set hlsearch
 set ignorecase
 set langmenu=none
 set laststatus=2
-set number
+set relativenumber
 set ruler
 set showcmd
 set softtabstop=2
