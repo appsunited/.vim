@@ -11,15 +11,23 @@ set guioptions=aAce
 set helplang=de
 set hlsearch
 set ignorecase
-set langmenu=none
-set laststatus=2
 set relativenumber
 set ruler
 set showcmd
+set expandtab
+set shiftwidth=2
 set softtabstop=2
 set tabstop=2
-set termencoding=utf-8
-set wildignore=*.o,*.obj,.git,*.rbc,*.class,.svn,vendor/gems/*
-set wildmode=list:longest,list:full
+set undofile
+set list
+set listchars=tab:▸\ ,eol:¬
+
+nnoremap <tab> %
+vnoremap <tab> %
+inoremap jj <ESC>
 
 nnoremap <leader>1 yypVr=
+nnoremap <leader>W :%s/\s\+$//<cr>:let @/=''<CR>
+nnoremap <leader>ss :SessionSave
+nnoremap <leader>so :SessionOpen
+nnoremap <leader>sl :SessionList<CR>
