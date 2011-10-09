@@ -28,6 +28,6 @@ inoremap jj <ESC>
 
 nnoremap <leader>1 yypVr=
 nnoremap <leader>W :%s/\s\+$//<cr>:let @/=''<CR>
-nnoremap <leader>ss :SessionSave
-nnoremap <leader>so :SessionOpen
+nnoremap <leader>ss :SessionSave<CR>
+nnoremap <leader>so :SessionOpen 
 nnoremap <leader>sl :SessionList<CR>
