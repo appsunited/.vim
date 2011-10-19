@@ -18,9 +18,9 @@ set expandtab
 set shiftwidth=2
 set softtabstop=2
 set tabstop=2
-set undofile
 set list
 set listchars=tab:▸\ ,eol:¬
+"set undofile
 
 nnoremap <tab> %
 vnoremap <tab> %

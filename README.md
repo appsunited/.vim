@@ -21,26 +21,35 @@ Plugins
 Shortcuts
 ---------
 
-		,n               # Open NERDtree
-		alt + shift + 7  # Open Buffer Explorer
-		cmd + t          # File Navigation
+    ,n               # Open NERDtree
+    ,be              # Open Buffer Explorer
+    ,sl              # Session List
+    ,so              # Session Open
+    ,ss              # Session Save
+    cmd + t          # File Navigation
+    ,W               # Remove all spaces at the end of rows.
+    jj               # Go back in normal mode.
+    ,1               # Underline selected words for commented code.
 
 
 Commands
 --------
 
-		:cd              # Always change into the project directory first, then Ack and Command-T are going to work faster.
-		:SessionList     # Open a list of saved sessions.
+    :cd              # Always change into the project directory first, then Ack and Command-T are going to work faster.
+    :SessionList     # Open a list of saved sessions.
+    :SessionOpen     # Open a previous session.
+    :SessionSave     # Save open session.
+    :Ack <Pattern>   # Search code snippets in directories.
 
 
 Links
 -----
 
 Graphical vi-vim Cheat Sheet and Tutorial:
-		http://www.viemu.com/a_vi_vim_graphical_cheat_sheet_tutorial.html
+    http://www.viemu.com/a_vi_vim_graphical_cheat_sheet_tutorial.html
 
 Coming Home to Vim:
-		http://stevelosh.com/blog/2010/09/coming-home-to-vim
+    http://stevelosh.com/blog/2010/09/coming-home-to-vim
 
 Seven habits of effective text editing:
-		http://www.moolenaar.net/habits.html
+    http://www.moolenaar.net/habits.html
